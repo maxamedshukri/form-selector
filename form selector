@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign up Form</title>
+<body>
+<div class =Sign_up>
+<Form>
+<h1>Sign up for free</h1>
+<input type="text"name ="fname" id="fname" placeholder="Your Fisrt Name" required><br>
+<input type = "text" name="lname" id="lname" placeholder="Your Last Name"required><br>
+<input type="text" name="emial" id="Email" placeholder="Your Email or Phone Number"required><br>
+<input type="text" name="password" id= password placeholder="Your Password"required><br>
+<input type="password" name="re_password" id="re_password" placeholder="Re-Type Password"required><br>
+<div class="date_of_birth"><br>
+<span style="font-size:18px";>Date_of_Birth</span><br>
+<select name="DOBmonth"><br>
+<option>Month</option>
+<option>Value=January</option>
+<option>Value=February</option>
+</select>
+<select name="DOBDay">
+<option>Day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+<select name="DOBYear">
+<option>Year</option>
+<option value="1990">1990</option>
+<option value="2000">2000</option>
+</select>
+<br>
+
+<input type="radio" name="male" value="Male"> Male<br>
+<input type="radio" name="female" value="Female"> Female<br>
+<input type="checkbox"> I accept Terms and conditions<br>
+<input type="submit" value="Create an Account"><br>
+
+
+</div>
+</Form>
+</div>
+</body>
+</html>
